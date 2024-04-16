@@ -5,6 +5,8 @@ def square_input(x):
 
 def return_negative(x):
     return -x
+def cube_input(x):
+    return np.power(x, 3)
 
 input = 3.5
 output_1 = square_input(input)
